@@ -1,0 +1,35 @@
+{
+  "name": "todo-rest",
+  "version": "1.0.0",
+  "description": "A todo Node.js Rest API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/f0rx/todo-nodejs-restapi.git"
+  },
+  "keywords": [
+    "Restful",
+    "API",
+    "Todo",
+    "To-Do",
+    "Node.js"
+  ],
+  "author": "Brendan Ejike",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/f0rx/todo-nodejs-restapi/issues"
+  },
+  "homepage": "https://github.com/f0rx/todo-nodejs-restapi#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.5"
+  }
+}
